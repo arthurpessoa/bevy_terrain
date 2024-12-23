@@ -28,9 +28,6 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/arthurpessoa/bevy_terrain">
-    <img src="assets/docs/bevy_logo_docs.svg" alt="Logo" width="80" height="80">
-  </a>
 <h3 align="center">Bevy Terrain</h3>
 
   <p align="center">
