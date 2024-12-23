@@ -47,57 +47,57 @@
 
 
 <!-- ABOUT THE PROJECT -->
+
 ## About The Project
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+Features:
 
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
-
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
-
-Use the `BLANK_README.md` to get started.
+* Geometric Clipmap Mesh Terrain, as used in The Witcher 3
+* LOD (Level of Detail) support
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 ### Built With
+
 [![Rust][Rust]][Rust-url]
 [![Bevy][Bevy]][Bevy-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-* Geometric Clipmap Mesh Terrain, as used in The Witcher 3
-
-
-
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+
 [contributors-shield]: https://img.shields.io/github/contributors/arthurpessoa/bevy_terrain.svg?style=for-the-badge
+
 [contributors-url]: https://github.com/arthurpessoa/bevy_terrain/graphs/contributors
+
 [forks-shield]: https://img.shields.io/github/forks/arthurpessoa/bevy_terrain.svg?style=for-the-badge
+
 [forks-url]: https://github.com/arthurpessoa/bevy_terrain/network/members
+
 [stars-shield]: https://img.shields.io/github/stars/arthurpessoa/bevy_terrain.svg?style=for-the-badge
+
 [stars-url]: https://github.com/arthurpessoa/bevy_terrain/stargazers
+
 [issues-shield]: https://img.shields.io/github/issues/arthurpessoa/bevy_terrain.svg?style=for-the-badge
+
 [issues-url]: https://github.com/arthurpessoa/bevy_terrain/issues
+
 [license-shield]: https://img.shields.io/github/license/arthurpessoa/bevy_terrain.svg?style=for-the-badge
+
 [license-url]: https://github.com/arthurpessoa/bevy_terrain/blob/master/LICENSE.txt
+
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+
 [linkedin-url]: https://linkedin.com/in/arthur-pessoa
+
 [product-screenshot]: assets%2Fdocs%2Fterrain_sM6xEi62vc.gif
 
-
-
 [Rust]: https://img.shields.io/badge/rust-000000?style=for-the-badge&logo=rust&logoColor=white
+
 [Rust-url]: https://www.rust-lang.org/
 
 [Bevy]: https://img.shields.io/badge/bevy-000000?style=for-the-badge&logo=bevy&logoColor=white
+
 [Bevy-url]: https://bevyengine.org/
