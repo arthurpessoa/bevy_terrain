@@ -11,6 +11,8 @@ path = "examples/terrain/main.rs"
 bevy = "0.15.0"
 noise = "0.9.0"
 bevy-inspector-egui = "0.28.0"
+image = "0.25.5"
+thiserror = "1.0.69"
 
 [dev-dependencies]
 bevy_panorbit_camera = "0.21.1"

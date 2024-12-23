@@ -30,7 +30,6 @@ fn setup(
     mut meshes: ResMut<Assets<Mesh>>,
     mut materials: ResMut<Assets<StandardMaterial>>,
 ) {
-
     //Light
     commands.spawn((
         DirectionalLight {
