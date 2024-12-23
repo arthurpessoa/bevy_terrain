@@ -70,7 +70,8 @@ Use the `BLANK_README.md` to get started.
 
 
 ### Built With
-[![Next][Next.js]][Next-url]
+[![Rust][Rust]][Rust-url]
+[![Bevy][Bevy]][Bevy-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -98,5 +99,8 @@ Use the `BLANK_README.md` to get started.
 
 
 
-[Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
-[Next-url]: https://nextjs.org/
+[Rust]: https://img.shields.io/badge/rust-000000?style=for-the-badge&logo=rust&logoColor=white
+[Rust-url]: https://www.rust-lang.org/
+
+[Bevy]: https://img.shields.io/badge/bevy-000000?style=for-the-badge&logo=bevy&logoColor=white
+[Bevy-url]: https://bevyengine.org/
