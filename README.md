@@ -53,9 +53,7 @@
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
 Features:
-
-* Geometric Clipmap Mesh Terrain, as used in The Witcher 3
-* LOD (Level of Detail) support
+- Mesh generation
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

@@ -5,6 +5,7 @@ use bevy::pbr::light_consts::lux::OVERCAST_DAY;
 use bevy::pbr::wireframe::WireframePlugin;
 use bevy::prelude::*;
 use bevy::render::{settings::{Backends, RenderCreation, WgpuSettings}, RenderPlugin};
+use bevy_inspector_egui::quick::WorldInspectorPlugin;
 use bevy_panorbit_camera::{PanOrbitCamera, PanOrbitCameraPlugin};
 use bevy_terrain::{Terrain3d, Terrain3dPlugin};
 use std::f32::consts::PI;
@@ -17,6 +18,7 @@ fn main() {
             PanOrbitCameraPlugin,
             WireframePlugin,
             Terrain3dPlugin,
+            WorldInspectorPlugin::new()
         ))
         .add_systems(Startup, setup)
         .add_systems(Update, update_fps_text)
@@ -100,7 +102,6 @@ fn defaults() -> PluginGroupBuilder {
 
 #[derive(Component)]
 struct FpsText;
-
 
 fn update_fps_text(diagnostics: Res<DiagnosticsStore>, mut query: Query<&mut Text, With<FpsText>>) {
     for mut text in &mut query {
