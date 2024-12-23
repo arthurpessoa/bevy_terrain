@@ -57,15 +57,7 @@ fn setup(
 
     // circular base
     commands.spawn((
-        Terrain3d,
-        Mesh3d(meshes.add(Mesh::from(
-            Plane3d::default()
-                .mesh()
-                .size(1000., 1000.)
-                .subdivisions(200),
-        ))),
-        MeshMaterial3d(materials.add(Color::WHITE)),
-        Transform::from_xyz(0., 0., 0.),
+        Terrain3d::default(),
     ));
 
     commands.spawn((
